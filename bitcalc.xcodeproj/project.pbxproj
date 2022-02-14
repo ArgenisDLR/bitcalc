@@ -11,6 +11,7 @@
 		4DF6F5BD27BA05130016D3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6F5BC27BA05130016D3E8 /* ContentView.swift */; };
 		4DF6F5BF27BA05140016D3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF6F5BE27BA05140016D3E8 /* Assets.xcassets */; };
 		4DF6F5C227BA05140016D3E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF6F5C127BA05140016D3E8 /* Preview Assets.xcassets */; };
+		4DF6F5CF27BADF530016D3E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6F5CE27BADF530016D3E8 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DF6F5BC27BA05130016D3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DF6F5BE27BA05140016D3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF6F5C127BA05140016D3E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DF6F5CE27BADF530016D3E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		4DF6F5B927BA05130016D3E8 /* bitcalc */ = {
 			isa = PBXGroup;
 			children = (
+				4DF6F5C827BA072A0016D3E8 /* View */,
 				4DF6F5BA27BA05130016D3E8 /* bitcalcApp.swift */,
 				4DF6F5BC27BA05130016D3E8 /* ContentView.swift */,
 				4DF6F5BE27BA05140016D3E8 /* Assets.xcassets */,
@@ -65,6 +68,54 @@
 				4DF6F5C127BA05140016D3E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DF6F5C827BA072A0016D3E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6F5CD27BA07570016D3E8 /* Service */,
+				4DF6F5CA27BA073A0016D3E8 /* Bitcoin */,
+				4DF6F5C927BA07300016D3E8 /* Calculator */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4DF6F5C927BA07300016D3E8 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		4DF6F5CA27BA073A0016D3E8 /* Bitcoin */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6F5CC27BA07490016D3E8 /* CalculatorView */,
+				4DF6F5CB27BA07420016D3E8 /* Navigation */,
+			);
+			path = Bitcoin;
+			sourceTree = "<group>";
+		};
+		4DF6F5CB27BA07420016D3E8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6F5CE27BADF530016D3E8 /* HomeView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4DF6F5CC27BA07490016D3E8 /* CalculatorView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CalculatorView;
+			sourceTree = "<group>";
+		};
+		4DF6F5CD27BA07570016D3E8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF6F5BD27BA05130016D3E8 /* ContentView.swift in Sources */,
+				4DF6F5CF27BADF530016D3E8 /* HomeView.swift in Sources */,
 				4DF6F5BB27BA05130016D3E8 /* bitcalcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
